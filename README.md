@@ -23,7 +23,6 @@ Loitering detection" refers to technology or methods used to identify people who
       - Calculate and display the object's variance to detect potential loitering behaviour.
     - Capture frames and display warning text if loitering is detected.
     - Display the processed frame with detected objects and tracked paths.
-Exit the loop if 'q' is pressed.
 7. Release the video capture and close OpenCV windows.
 
 ---
