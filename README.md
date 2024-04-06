@@ -25,3 +25,9 @@ Loitering detection" refers to technology or methods used to identify people who
     - Display the processed frame with detected objects and tracked paths.
 Exit the loop if 'q' is pressed.
 7. Release the video capture and close OpenCV windows.
+
+---
+#### SORT (Simple Online and RealTime Tracking)
+- SORT is a method that assigns unique IDs to objects, tracking them across video frames in real-time, even when temporarily lost from view. 
+- SORT is invaluable for real-time object tracking in various applications like surveillance, self-driving cars, and sports analysis, where monitoring multiple objects' movements over time is essential.
+- Check out the SORT algorithm on GitHub at: https://github.com/abewley/sort.
