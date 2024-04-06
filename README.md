@@ -27,7 +27,13 @@ Exit the loop if 'q' is pressed.
 7. Release the video capture and close OpenCV windows.
 
 ---
-#### SORT (Simple Online and RealTime Tracking)
+#### SORT (Simple Online and RealTime Tracking) :
+- Check out the SORT algorithm on GitHub at: https://github.com/abewley/sort.
 - SORT is a method that assigns unique IDs to objects, tracking them across video frames in real-time, even when temporarily lost from view. 
 - SORT is invaluable for real-time object tracking in various applications like surveillance, self-driving cars, and sports analysis, where monitoring multiple objects' movements over time is essential.
-- Check out the SORT algorithm on GitHub at: https://github.com/abewley/sort.
+- Parameters are (max_age, min_hits, and iou_threshold).
+
+---
+#### Variance : 
+- Variance measures changes in an object's position or features over time, aiding accurate movement tracking by assessing movement, size, shape, or color alterations between frames. It indicates the uncertainty or stability of movement.
+- For example, in video surveillance, high variance suggests the object is moving rapidly, while low variance indicates it's relatively still.
